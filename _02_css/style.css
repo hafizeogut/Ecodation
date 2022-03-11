@@ -1,0 +1,34 @@
+h5{
+    background-color: brown;
+    color: white;
+}/*Yorumlama tegi ClassName sınıf oluştutduk*/
+
+.className{
+/*key:value =anahtar ve değer*/
+/*birden fazla tagg için*/
+    background:#47228c;
+    color: chocolate;
+
+
+}
+/* id tek bileşenler için kullanıyoruz
+!important: zorunlu olarak kabul ettiriyorum*/
+#idName{
+    background: white!important;
+    color: blue;
+
+}
+
+/*div bütün divlere ulaş*/
+div{
+    background-color: blue;
+    color: white;
+    height: 200px;
+    width: 150px;
+    /*padding (saatin dönme yönünde olur): iç boşluk*/
+    /*padding: 5px 6px 7px 8px;*/
+    padding: 5px 3px;
+    /*padding-top: 6px:sadece yukarıdan 6 pixsel;*/
+    margin: 3px  3px;
+}
+
